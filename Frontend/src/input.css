@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Caladea:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  position: relative;
+  font-family: "Caladea", serif;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(0, 27, 94, 0.213);
+  border-radius: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(100, 116, 139);
+  cursor: pointer;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(72, 85, 102);
+}
